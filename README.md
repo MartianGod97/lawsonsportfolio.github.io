@@ -22,5 +22,4 @@
 		<h2 class="highlight">Skills</h2>
 	 	<p>A list of my skills</p>
 	</section>
-	<h2>The more I poke around the more I realise what I got wrong</h2>
 </body>
