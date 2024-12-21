@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<nav>
+	<a href="AboutMe.html">About</a>
+	<a href="Project.html">Projects</a>
+	<a href="Skills.html">Skills</a>
+</nav>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+	<img src="phone.jpg" alt="Mobile Picture" class="phone-pic">
+	<h1 class="highlight">Contacts</h1>
+	<p>Want to contact me? Here are some ways you can do so!</p>
+	<h2 class="highlight">Phone Number</h2>
+	<p>757-714-9862</p>
+	<h2 class="highlight">Email</h2>
+	<p>Email me at <a href="mailto:tlawson0147@kctcs.com">tlawson0147@kctcs.com</a></p>
+	<h2 class="highlight">LinkedIn</h2>
+	<p>Check out my <a href="https://www.linkedin.com/in/tristan-lawson-29623b1a7?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B59Xd69IIS7Ws4nlkzw3qqw%3D%3D" target="_blank">LinkedIn profile</a> to find out more!</p>
+	<h1 class="highlight">Contact Me</h1>
+	<form action="submit.php" method="post">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" placeholder="Your name" required>
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" placeholder="Your email" required>
+		
+		<label for="message">Message:</label>
+		<textarea id="message" name="message" placeholder="Your message" required></textarea>
+		
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>
